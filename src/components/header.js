@@ -1,7 +1,7 @@
 /*
  * @Author: tupo
  * @Date: 2020-05-08 17:19:09
- * @LastEditTime: 2020-05-09 11:52:33
+ * @LastEditTime: 2020-05-09 19:49:01
  * @LastEditors: tupo
  * @Description: In User Settings Edit
  * @FilePath: \hello-world\src\pages\components\header.js
@@ -15,7 +15,7 @@ import { Link } from "gatsby"
 const NavLink = styled(Link)`
   color: #222;
   font-size: 1rem;
-  font-weight: ${props => props.fontWeight || "normal"};
+  font-weight: ${(props) => props.fontWeight || "normal"};
   line-height: 1;
   margin: 0 0.5rem 0 0;
   padding: 0.25rem;

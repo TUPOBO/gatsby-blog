@@ -1,3 +1,6 @@
+/*
+ * @LastEditors: tupo
+ */
 /**
  * Configure your Gatsby site with this file.
  *
@@ -6,5 +9,9 @@
 
 module.exports = {
   /* Your site config here */
-  plugins: ["gatsby-plugin-emotion"],
+  siteMetadata: {
+    title: "Personal Bolg",
+    description: "Personal Blog",
+  },
+  plugins: ["gatsby-plugin-emotion", `gatsby-plugin-react-helmet`],
 }
